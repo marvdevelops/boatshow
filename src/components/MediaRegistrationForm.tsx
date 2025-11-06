@@ -8,7 +8,7 @@ import { FileUpload } from './FileUpload';
 import { CountrySelect } from './CountrySelect';
 import { PhoneInput } from './PhoneInput';
 import { SmartUrlInput } from './SmartUrlInput';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { CheckCircle, Loader2 } from 'lucide-react';
 import { createSubmission, uploadFile } from '../utils/api';
 

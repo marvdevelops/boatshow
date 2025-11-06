@@ -11,7 +11,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '.
 import { EmailTemplateEditor } from './EmailTemplateEditor';
 import { EmailCampaignsPanel } from './EmailCampaignsPanel';
 import { SuperAdminPanel } from './SuperAdminPanel';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { Label } from './ui/label';
 import { Textarea } from './ui/textarea';
 import { getSubmissions, approveSubmission, rejectSubmission, deleteSubmission, createSubmission, getEmailTemplates, getPromoCodes, createPromoCode, updatePromoCode, deletePromoCode } from '../utils/api';

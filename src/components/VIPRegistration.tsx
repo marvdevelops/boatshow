@@ -4,7 +4,7 @@ import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Label } from './ui/label';
 import { Switch } from './ui/switch';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { CheckCircle, Sparkles, Anchor } from 'lucide-react';
 import { PhoneInput } from './PhoneInput';
 import { CountrySelect } from './CountrySelect';

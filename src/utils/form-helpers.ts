@@ -1,4 +1,4 @@
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { createSubmission, uploadFile } from './api';
 
 export interface FileUploadResult {
